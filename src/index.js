@@ -3,7 +3,7 @@
   var nx = global.nx || require('@jswork/next');
   var timefomrat = nx.timeformat || require('@jswork/next-time-format');
   /* prettier-ignore */
-  var pad = function (value) { return ('' + value).padStart(2, '0'); };
+  var pad = function (value, len) { return ('' + value).padStart(len || 2, '0'); };
 
   nx.time2clock = function (inTimestamp) {
     var target = timefomrat(inTimestamp);
@@ -11,7 +11,7 @@
     var part1_2 = [pad(target.minute), pad(target.second)];
     var part2_1 = ',';
     var part2_2 = '.';
-    var part3_1 = pad(target.millisecond);
+    var part3_1 = pad(target.millisecond, 3);
     var part3_2 = pad(target.millisecond);
 
     return {
