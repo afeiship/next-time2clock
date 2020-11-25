@@ -39,5 +39,17 @@
   },
   "dependencies": {
     "@jswork/next-time-format": "^1.0.0"
-  }
+  },
+  "keywords": [
+    "next",
+    "time",
+    "clock",
+    "timestamp",
+    "lrc",
+    "srt",
+    "subtitle",
+    "lrc-maker",
+    "audio",
+    "video"
+  ]
 }
