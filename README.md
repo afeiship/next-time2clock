@@ -16,7 +16,7 @@ npm install -S @jswork/next-time2clock
 import '@jswork/next-time2clock';
 
 const res = nx.time2clock(122313);
-// { srt: '00:02:02,003', lrc: '02:02.03' }
+// { srt: '00:02:02,313', std: '00:02:02.313', lrc: '02:02.313' }
 ```
 
 ## license

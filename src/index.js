@@ -11,11 +11,13 @@
     var part1_2 = [pad(target.minute), pad(target.second)];
     var part2_1 = ',';
     var part2_2 = '.';
+    var part_std = '.';
     var part3_1 = pad(target.millisecond, 3);
     var part3_2 = pad(target.millisecond);
 
     return {
       srt: [part1_1.join(':'), part2_1, part3_1].join(''),
+      std: [part1_1.join(':'), part_std, part3_1].join(''),
       lrc: [part1_2.join(':'), part2_2, part3_2].join('')
     };
   };
