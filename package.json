@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-time2clock",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Time to clock(lrc/srt) for next.",
   "homepage": "https://js.work",
   "author": {
@@ -46,5 +46,17 @@
   },
   "dependencies": {
     "@jswork/next-time-format": "^1.0.4"
-  }
+  },
+  "keywords": [
+    "next",
+    "time",
+    "clock",
+    "timestamp",
+    "lrc",
+    "srt",
+    "subtitle",
+    "lrc-maker",
+    "audio",
+    "video"
+  ]
 }
